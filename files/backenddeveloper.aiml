@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>BACK END DEVELOPER</pattern>
+        <template>
+            Back-end developers build APIs, databases, and server-side logic.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHY BACK END DEVELOPER</pattern>
+        <template>
+            This fits students who like programming, logic, and problem solving.
+        </template>
+    </category>
+
+    <category>
+        <pattern>BACK END DEVELOPER SKILLS</pattern>
+        <template>
+            Common skills: Java or Python, SQL, APIs, debugging, and version control.
+        </template>
+    </category>
+
+</aiml>

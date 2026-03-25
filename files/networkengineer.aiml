@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>NETWORK ENGINEER</pattern>
+        <template>
+            Network engineers build and maintain routers, switches, and network connectivity.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHY NETWORK ENGINEER</pattern>
+        <template>
+            This fits students who like infrastructure, connectivity, and technical troubleshooting.
+        </template>
+    </category>
+
+    <category>
+        <pattern>NETWORK ENGINEER SKILLS</pattern>
+        <template>
+            Common skills: TCP IP, subnetting, routing, switching, firewalls, and monitoring.
+        </template>
+    </category>
+
+</aiml>

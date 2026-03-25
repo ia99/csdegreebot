@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hello. I help computer science students explore careers.
+            Choose one area: design, programming, systems, security, or networking.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>Hello. Choose one area: design, programming, systems, security, or networking.</template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template>Hello. Choose one area: design, programming, systems, security, or networking.</template>
+    </category>
+
+    <category>
+        <pattern>START</pattern>
+        <template>Hello. Choose one area: design, programming, systems, security, or networking.</template>
+    </category>
+
+    <category>
+        <pattern>HELP</pattern>
+        <template>
+            I recommend five careers.
+            Type design, programming, systems, security, or networking.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DESIGN</pattern>
+        <template>
+            Do you like layout and user experience?
+            Type YES DESIGN or NO.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE DESIGN</pattern>
+        <template>Do you like layout and user experience? Type YES DESIGN or NO.</template>
+    </category>
+
+    <category>
+        <pattern>PROGRAMMING</pattern>
+        <template>
+            Do you like APIs, databases, and server logic?
+            Type YES PROGRAMMING or NO.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE PROGRAMMING</pattern>
+        <template>Do you like APIs, databases, and server logic? Type YES PROGRAMMING or NO.</template>
+    </category>
+
+    <category>
+        <pattern>I ENJOY CODING</pattern>
+        <template>Do you like APIs, databases, and server logic? Type YES PROGRAMMING or NO.</template>
+    </category>
+
+    <category>
+        <pattern>SYSTEMS</pattern>
+        <template>
+            Do you like servers, operating systems, and troubleshooting?
+            Type YES SYSTEMS or NO.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE SYSTEMS</pattern>
+        <template>Do you like servers, operating systems, and troubleshooting? Type YES SYSTEMS or NO.</template>
+    </category>
+
+    <category>
+        <pattern>SECURITY</pattern>
+        <template>
+            Do you like protecting systems and finding risks?
+            Type YES SECURITY or NO.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE SECURITY</pattern>
+        <template>Do you like protecting systems and finding risks? Type YES SECURITY or NO.</template>
+    </category>
+
+    <category>
+        <pattern>NETWORKING</pattern>
+        <template>
+            Do you like routers, switches, and connectivity?
+            Type YES NETWORKING or NO.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE NETWORKING</pattern>
+        <template>Do you like routers, switches, and connectivity? Type YES NETWORKING or NO.</template>
+    </category>
+
+    <category>
+        <pattern>YES DESIGN</pattern>
+        <template>
+            Web designer could fit you.
+            Type MORE WEB DESIGNER or ANOTHER.
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES PROGRAMMING</pattern>
+        <template>
+            Back-end developer could fit you.
+            Type MORE BACK END or ANOTHER.
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES SYSTEMS</pattern>
+        <template>
+            Systems administrator could fit you.
+            Type MORE SYSTEMS ADMINISTRATOR or ANOTHER.
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES SECURITY</pattern>
+        <template>
+            Security analyst could fit you.
+            Type MORE SECURITY ANALYST or ANOTHER.
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES NETWORKING</pattern>
+        <template>
+            Network engineer could fit you.
+            Type MORE NETWORK ENGINEER or ANOTHER.
+        </template>
+    </category>
+
+    <category>
+        <pattern>NO</pattern>
+        <template>
+            Choose another area: design, programming, systems, security, or networking.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ANOTHER</pattern>
+        <template>
+            Choose one area: design, programming, systems, security, or networking.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ANOTHER CAREER</pattern>
+        <template>Choose one area: design, programming, systems, security, or networking.</template>
+    </category>
+
+    <category>
+        <pattern>RESTART</pattern>
+        <template>
+            Restarted.
+            Choose one area: design, programming, systems, security, or networking.
+        </template>
+    </category>
+
+</aiml>

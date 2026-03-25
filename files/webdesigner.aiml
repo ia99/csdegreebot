@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>WEB DESIGNER</pattern>
+        <template>
+            Web designers work on page layout, appearance, and user experience.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHY WEB DESIGNER</pattern>
+        <template>
+            This fits students who like creativity, layout, and front-end work.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WEB DESIGNER SKILLS</pattern>
+        <template>
+            Common skills: HTML, CSS, JavaScript, accessibility, and UX basics.
+        </template>
+    </category>
+
+</aiml>

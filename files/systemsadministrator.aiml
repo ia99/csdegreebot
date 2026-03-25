@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>SYSTEMS ADMINISTRATOR</pattern>
+        <template>
+            Systems administrators manage servers, users, operating systems, and backups.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHY SYSTEMS ADMINISTRATOR</pattern>
+        <template>
+            This fits students who like reliability, troubleshooting, and infrastructure.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SYSTEMS ADMINISTRATOR SKILLS</pattern>
+        <template>
+            Common skills: Linux, Windows Server, scripting, virtualization, and monitoring.
+        </template>
+    </category>
+
+</aiml>

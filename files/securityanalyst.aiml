@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>SECURITY ANALYST</pattern>
+        <template>
+            Security analysts monitor threats, review risks, and help protect systems.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHY SECURITY ANALYST</pattern>
+        <template>
+            This fits students who like analysis, caution, and cybersecurity work.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SECURITY ANALYST SKILLS</pattern>
+        <template>
+            Common skills: log review, vulnerability checking, access control, and networking basics.
+        </template>
+    </category>
+
+</aiml>

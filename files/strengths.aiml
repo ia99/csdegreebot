@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>I AM CREATIVE</pattern>
+        <template>
+            That points to web designer.
+            Type WEB DESIGNER or TELL ME MORE.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I AM ANALYTICAL</pattern>
+        <template>
+            That points to security analyst or back-end developer.
+            Type SECURITY or PROGRAMMING.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE TROUBLESHOOTING</pattern>
+        <template>
+            That points to systems administrator or network engineer.
+            Type SYSTEMS or NETWORKING.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE WEBSITE LAYOUT</pattern>
+        <template>
+            That points to web designer.
+            Type WEB DESIGNER or TELL ME MORE.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE BUILDING APIS</pattern>
+        <template>
+            That points to back-end developer.
+            Type BACK END DEVELOPER or TELL ME MORE.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE SERVERS</pattern>
+        <template>
+            That points to systems administrator.
+            Type SYSTEMS ADMINISTRATOR or TELL ME MORE.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE PROTECTING SYSTEMS</pattern>
+        <template>
+            That points to security analyst.
+            Type SECURITY ANALYST or TELL ME MORE.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I LIKE ROUTERS</pattern>
+        <template>
+            That points to network engineer.
+            Type NETWORK ENGINEER or TELL ME MORE.
+        </template>
+    </category>
+
+</aiml>
