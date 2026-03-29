@@ -2,30 +2,55 @@
 <aiml version="2.0">
 
     <category>
+        <pattern>TELL ME MORE</pattern>
+        <template>
+            <condition name="career">
+                <li value="web designer">
+                    Focus: layout, UX, and front-end.
+                    Skills: HTML, CSS, JavaScript.
+                </li>
+                <li value="back-end developer">
+                    Focus: logic, APIs, and databases.
+                    Skills: Java or Python, SQL.
+                </li>
+                <li value="systems administrator">
+                    Focus: servers, users, and uptime.
+                    Skills: Linux, Windows Server, scripting.
+                </li>
+                <li value="security analyst">
+                    Focus: risks, threats, and protection.
+                    Skills: log review, vulnerability checks, access control.
+                </li>
+                <li value="network engineer">
+                    Focus: connectivity, routing, and switching.
+                    Skills: TCP IP, subnetting, firewalls.
+                </li>
+                <li>
+                    First get a recommendation.
+                    Type design, programming, systems, security, or networking.
+                </li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
         <pattern>WHAT CAREERS CAN YOU RECOMMEND</pattern>
         <template>
-            I can recommend web designer, back-end developer, systems administrator, security analyst, and network engineer.
+            Web designer, back-end developer, systems administrator, security analyst, and network engineer.
         </template>
     </category>
 
     <category>
         <pattern>WHAT CAN YOU DO</pattern>
         <template>
-            I ask about your interests and suggest one of five computing careers.
-        </template>
-    </category>
-
-    <category>
-        <pattern>TELL ME MORE</pattern>
-        <template>
-            Type MORE WEB DESIGNER, MORE BACK END, MORE SYSTEMS ADMINISTRATOR, MORE SECURITY ANALYST, or MORE NETWORK ENGINEER.
+            I ask about your interests and suggest a computing career.
         </template>
     </category>
 
     <category>
         <pattern>*</pattern>
         <template>
-            I did not understand that.
+            I did not understand.
             Type HELP or choose design, programming, systems, security, or networking.
         </template>
     </category>

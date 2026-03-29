@@ -11,17 +11,17 @@
 
     <category>
         <pattern>HI</pattern>
-        <template>Hello. Choose one area: design, programming, systems, security, or networking.</template>
+        <template><srai>HELLO</srai></template>
     </category>
 
     <category>
         <pattern>HEY</pattern>
-        <template>Hello. Choose one area: design, programming, systems, security, or networking.</template>
+        <template><srai>HELLO</srai></template>
     </category>
 
     <category>
         <pattern>START</pattern>
-        <template>Hello. Choose one area: design, programming, systems, security, or networking.</template>
+        <template><srai>HELLO</srai></template>
     </category>
 
     <category>
@@ -35,117 +35,154 @@
     <category>
         <pattern>DESIGN</pattern>
         <template>
+            <think><set name="interest">design</set></think>
             Do you like layout and user experience?
-            Type YES DESIGN or NO.
         </template>
     </category>
 
     <category>
         <pattern>I LIKE DESIGN</pattern>
-        <template>Do you like layout and user experience? Type YES DESIGN or NO.</template>
+        <template><srai>DESIGN</srai></template>
+    </category>
+
+    <category>
+        <pattern>I AM INTERESTED IN DESIGN</pattern>
+        <template><srai>DESIGN</srai></template>
     </category>
 
     <category>
         <pattern>PROGRAMMING</pattern>
         <template>
+            <think><set name="interest">programming</set></think>
             Do you like APIs, databases, and server logic?
-            Type YES PROGRAMMING or NO.
         </template>
     </category>
 
     <category>
         <pattern>I LIKE PROGRAMMING</pattern>
-        <template>Do you like APIs, databases, and server logic? Type YES PROGRAMMING or NO.</template>
+        <template><srai>PROGRAMMING</srai></template>
     </category>
 
     <category>
         <pattern>I ENJOY CODING</pattern>
-        <template>Do you like APIs, databases, and server logic? Type YES PROGRAMMING or NO.</template>
+        <template><srai>PROGRAMMING</srai></template>
     </category>
 
     <category>
         <pattern>SYSTEMS</pattern>
         <template>
+            <think><set name="interest">systems</set></think>
             Do you like servers, operating systems, and troubleshooting?
-            Type YES SYSTEMS or NO.
         </template>
     </category>
 
     <category>
         <pattern>I LIKE SYSTEMS</pattern>
-        <template>Do you like servers, operating systems, and troubleshooting? Type YES SYSTEMS or NO.</template>
+        <template><srai>SYSTEMS</srai></template>
+    </category>
+
+    <category>
+        <pattern>I LIKE WORKING WITH SERVERS</pattern>
+        <template><srai>SYSTEMS</srai></template>
     </category>
 
     <category>
         <pattern>SECURITY</pattern>
         <template>
+            <think><set name="interest">security</set></think>
             Do you like protecting systems and finding risks?
-            Type YES SECURITY or NO.
         </template>
     </category>
 
     <category>
         <pattern>I LIKE SECURITY</pattern>
-        <template>Do you like protecting systems and finding risks? Type YES SECURITY or NO.</template>
+        <template><srai>SECURITY</srai></template>
+    </category>
+
+    <category>
+        <pattern>I AM INTERESTED IN SECURITY</pattern>
+        <template><srai>SECURITY</srai></template>
     </category>
 
     <category>
         <pattern>NETWORKING</pattern>
         <template>
+            <think><set name="interest">networking</set></think>
             Do you like routers, switches, and connectivity?
-            Type YES NETWORKING or NO.
         </template>
     </category>
 
     <category>
         <pattern>I LIKE NETWORKING</pattern>
-        <template>Do you like routers, switches, and connectivity? Type YES NETWORKING or NO.</template>
+        <template><srai>NETWORKING</srai></template>
     </category>
 
     <category>
-        <pattern>YES DESIGN</pattern>
+        <pattern>I ENJOY NETWORKS</pattern>
+        <template><srai>NETWORKING</srai></template>
+    </category>
+
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU LIKE LAYOUT AND USER EXPERIENCE</that>
         <template>
+            <think><set name="career">web designer</set></think>
             Web designer could fit you.
-            Type MORE WEB DESIGNER or ANOTHER.
+            Type TELL ME MORE or ANOTHER.
         </template>
     </category>
 
     <category>
-        <pattern>YES PROGRAMMING</pattern>
+        <pattern>YES</pattern>
+        <that>DO YOU LIKE APIS, DATABASES, AND SERVER LOGIC</that>
         <template>
+            <think><set name="career">back-end developer</set></think>
             Back-end developer could fit you.
-            Type MORE BACK END or ANOTHER.
+            Type TELL ME MORE or ANOTHER.
         </template>
     </category>
 
     <category>
-        <pattern>YES SYSTEMS</pattern>
+        <pattern>YES</pattern>
+        <that>DO YOU LIKE SERVERS, OPERATING SYSTEMS, AND TROUBLESHOOTING</that>
         <template>
+            <think><set name="career">systems administrator</set></think>
             Systems administrator could fit you.
-            Type MORE SYSTEMS ADMINISTRATOR or ANOTHER.
+            Type TELL ME MORE or ANOTHER.
         </template>
     </category>
 
     <category>
-        <pattern>YES SECURITY</pattern>
+        <pattern>YES</pattern>
+        <that>DO YOU LIKE PROTECTING SYSTEMS AND FINDING RISKS</that>
         <template>
+            <think><set name="career">security analyst</set></think>
             Security analyst could fit you.
-            Type MORE SECURITY ANALYST or ANOTHER.
+            Type TELL ME MORE or ANOTHER.
         </template>
     </category>
 
     <category>
-        <pattern>YES NETWORKING</pattern>
+        <pattern>YES</pattern>
+        <that>DO YOU LIKE ROUTERS, SWITCHES, AND CONNECTIVITY</that>
         <template>
+            <think><set name="career">network engineer</set></think>
             Network engineer could fit you.
-            Type MORE NETWORK ENGINEER or ANOTHER.
+            Type TELL ME MORE or ANOTHER.
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES</pattern>
+        <template>
+            Type one area first: design, programming, systems, security, or networking.
         </template>
     </category>
 
     <category>
         <pattern>NO</pattern>
         <template>
-            Choose another area: design, programming, systems, security, or networking.
+            Try another area: design, programming, systems, security, or networking.
         </template>
     </category>
 
@@ -158,12 +195,28 @@
 
     <category>
         <pattern>ANOTHER CAREER</pattern>
-        <template>Choose one area: design, programming, systems, security, or networking.</template>
+        <template><srai>ANOTHER</srai></template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS MY INTEREST</pattern>
+        <template>
+            Your interest is <get name="interest"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS MY CAREER</pattern>
+        <template>
+            Your career is <get name="career"/>.
+        </template>
     </category>
 
     <category>
         <pattern>RESTART</pattern>
         <template>
+            <think><set name="interest">unknown</set></think>
+            <think><set name="career">unknown</set></think>
             Restarted.
             Choose one area: design, programming, systems, security, or networking.
         </template>
