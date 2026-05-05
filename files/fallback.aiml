@@ -8,22 +8,27 @@
                 <li value="web designer">
                     Focus: layout, UX, and front-end.
                     Skills: HTML, CSS, JavaScript.
+                    Type ANOTHER or QUIT.
                 </li>
                 <li value="back-end developer">
                     Focus: logic, APIs, and databases.
                     Skills: Java or Python, SQL.
+                    Type ANOTHER or QUIT.
                 </li>
                 <li value="systems administrator">
                     Focus: servers, users, and uptime.
                     Skills: Linux, Windows Server, scripting.
+                    Type ANOTHER or QUIT.
                 </li>
                 <li value="security analyst">
                     Focus: risks, threats, and protection.
                     Skills: log review, vulnerability checks, access control.
+                    Type ANOTHER or QUIT.
                 </li>
                 <li value="network engineer">
                     Focus: connectivity, routing, and switching.
                     Skills: TCP IP, subnetting, firewalls.
+                    Type ANOTHER or QUIT.
                 </li>
                 <li>
                     First get a recommendation.

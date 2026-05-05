@@ -25,6 +25,19 @@
     </category>
 
     <category>
+        <pattern>QUIT</pattern>
+        <template>
+            Session ended.
+            Type HELLO if you want to start again later.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXIT</pattern>
+        <template><srai>QUIT</srai></template>
+    </category>
+
+    <category>
         <pattern>HELP</pattern>
         <template>
             I recommend five careers.
